@@ -1,9 +1,9 @@
 This repository contains the files you will need for the exercises during the Software Carpentry workshop, 12-13 October 2015. This workshop is the first in a series of six that form the CECAM Macromolecular Simulation Software Workshop, Jülich, Germany.
 
 To download these files, clone the repository onto your laptop
-
- git clone https://github.com/dotsdl/swc_julich_data.git
-
+```
+git clone https://github.com/dotsdl/swc_julich_data.git
+```
 and you should get output looking like
 
  Cloning into 'swc_julich_data'...
