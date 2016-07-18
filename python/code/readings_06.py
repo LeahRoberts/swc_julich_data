@@ -8,6 +8,7 @@ def main():
     assert action in ['--min', '--mean', '--max'], \
            'Action is not one of --min, --mean, or --max: ' + action
     if len(filenames) == 0:
+        print('No filenames, processing stdin...')
         process(sys.stdin, action)
     else:
         for f in filenames:
@@ -24,6 +25,6 @@ def process(filename, action):
         values = data.max(axis=1)
 
     for m in values:
-        print m
+        print(m)
 
 main()
